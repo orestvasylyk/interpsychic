@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Box</title>
+    <style>
+        /* Ensures the page itself has no margins */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', monospace;
+        }
+
+        /* Your profile box styles */
+        .profile-box {
+            background-color: white;
+            color: #222;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 24px;
+            max-width: 720px; /* Max width on desktop */
+            width: auto; /* Allows it to shrink */
+            margin: 0 auto; /* Center it */
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            line-height: 1.6;
+            /* This tells the box to fit its content */
+            box-sizing: border-box; 
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-box">
+        <p style="font-size: 16px; margin: 0 0 8px 0;">
+            <strong>[~]$ whoami</strong>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+            Cyber-Security Consultant and Developer with interests in Offensive Security,
+            *nix-based Systems, Android, Reverse Engineering, and Programming; loves Command Line, FOSS.
+            <a href="#" style="color:#3366cc; text-decoration:none;">Read more...</a>
+        </p>
+        <ul style="list-style:none; padding:0; margin:0;">
+            <li style="margin-bottom:6px;">
+                <a href="#" style="color:#3366cc; text-decoration:none;">🔗 Link Tree</a> – Links to all my social media profiles.
+            </li>
+            <li style="margin-bottom:6px;">
+                <a href="#" style="color:#3366cc; text-decoration:none;">📰 RSS Feed</a> – Subscribe to this blog using RSS aggregators.
+            </li>
+            <li style="margin-bottom:6px;">
+                📧 Reach out to me at <a href="mailto:contact@yourmail.com" style="color:#3366cc; text-decoration:none;">contact@yourmail.com</a>
+            </li>
+        </ul>
+        <div style="margin-top:16px;">
+            <a href="#" style="margin-right:16px; color:#3366cc; text-decoration:none;">LinkedIn</a>
+            <a href="#" style="color:#3366cc; text-decoration:none;">Twitter/X</a>
+        </div>
+    </div>
+</body>
+</html>
